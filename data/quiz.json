@@ -1,0 +1,482 @@
+[
+  {
+    "id": "q1",
+    "prompt": "What is the primary driver of federal budget deficits?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Mandatory and discretionary spending exceeding revenues"
+      },
+      {
+        "id": "b",
+        "label": "Only defense spending"
+      },
+      {
+        "id": "c",
+        "label": "Only interest payments"
+      },
+      {
+        "id": "d",
+        "label": "Only tax cuts"
+      }
+    ],
+    "answer": "a",
+    "rationale": "Persistent primary deficits occur when total outlays exceed total receipts; composition varies by cycle."
+  },
+  {
+    "id": "q2",
+    "prompt": "What is the difference between the national debt and the federal deficit?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "They are the same thing"
+      },
+      {
+        "id": "b",
+        "label": "The deficit is the annual shortfall; the debt is the cumulative total"
+      },
+      {
+        "id": "c",
+        "label": "The debt is only foreign borrowing"
+      },
+      {
+        "id": "d",
+        "label": "The deficit includes state debts"
+      }
+    ],
+    "answer": "b",
+    "rationale": "The deficit is the yearly gap between spending and revenue, while the debt is the total amount owed accumulated over time."
+  },
+  {
+    "id": "q3",
+    "prompt": "What percentage of the federal budget is mandatory spending (Social Security, Medicare, Medicaid)?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "About 25%"
+      },
+      {
+        "id": "b",
+        "label": "About 40%"
+      },
+      {
+        "id": "c",
+        "label": "About 65%"
+      },
+      {
+        "id": "d",
+        "label": "About 85%"
+      }
+    ],
+    "answer": "c",
+    "rationale": "Mandatory spending accounts for roughly two-thirds of the federal budget, with Social Security, Medicare, and Medicaid being the largest programs."
+  },
+  {
+    "id": "q4",
+    "prompt": "What happens when the government runs a deficit?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "It prints more money"
+      },
+      {
+        "id": "b",
+        "label": "It borrows by issuing Treasury securities"
+      },
+      {
+        "id": "c",
+        "label": "It raises taxes immediately"
+      },
+      {
+        "id": "d",
+        "label": "It cuts all spending"
+      }
+    ],
+    "answer": "b",
+    "rationale": "The government finances deficits by issuing Treasury bonds, bills, and notes, which are purchased by investors both domestic and foreign."
+  },
+  {
+    "id": "q5",
+    "prompt": "What is discretionary spending?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Spending that Congress must approve annually"
+      },
+      {
+        "id": "b",
+        "label": "Only military spending"
+      },
+      {
+        "id": "c",
+        "label": "Spending on Social Security"
+      },
+      {
+        "id": "d",
+        "label": "Interest on the debt"
+      }
+    ],
+    "answer": "a",
+    "rationale": "Discretionary spending includes defense, education, transportation, and other programs that Congress appropriates each year through the budget process."
+  },
+  {
+    "id": "q6",
+    "prompt": "What is counter-cyclical fiscal policy?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Always balancing the budget"
+      },
+      {
+        "id": "b",
+        "label": "Increasing spending or cutting taxes during recessions"
+      },
+      {
+        "id": "c",
+        "label": "Only cutting spending"
+      },
+      {
+        "id": "d",
+        "label": "Eliminating all government programs"
+      }
+    ],
+    "answer": "b",
+    "rationale": "Counter-cyclical policy uses government spending and tax policy to stabilize the economy, expanding during downturns and contracting during booms."
+  },
+  {
+    "id": "q7",
+    "prompt": "Who holds the majority of U.S. national debt?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Foreign governments exclusively"
+      },
+      {
+        "id": "b",
+        "label": "Domestic investors and the Federal Reserve"
+      },
+      {
+        "id": "c",
+        "label": "Only China"
+      },
+      {
+        "id": "d",
+        "label": "Private banks only"
+      }
+    ],
+    "answer": "b",
+    "rationale": "About 70% of U.S. debt is held domestically by American investors, institutions, and the Federal Reserve. Foreign holdings account for roughly 30%."
+  },
+  {
+    "id": "q8",
+    "prompt": "What is the debt-to-GDP ratio?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "The total debt divided by annual economic output"
+      },
+      {
+        "id": "b",
+        "label": "The deficit divided by population"
+      },
+      {
+        "id": "c",
+        "label": "The interest rate on Treasury bonds"
+      },
+      {
+        "id": "d",
+        "label": "The tax rate"
+      }
+    ],
+    "answer": "a",
+    "rationale": "The debt-to-GDP ratio measures national debt as a percentage of the economy's total output, helping assess fiscal sustainability."
+  },
+  {
+    "id": "q9",
+    "prompt": "What are interest payments on the national debt?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Optional payments the government can skip"
+      },
+      {
+        "id": "b",
+        "label": "Required payments to bondholders for borrowing"
+      },
+      {
+        "id": "c",
+        "label": "Only paid to foreign countries"
+      },
+      {
+        "id": "d",
+        "label": "Part of discretionary spending"
+      }
+    ],
+    "answer": "b",
+    "rationale": "Interest payments are mandatory obligations to Treasury security holders. They're a growing portion of the budget as debt levels rise."
+  },
+  {
+    "id": "q10",
+    "prompt": "What is the primary source of federal government revenue?",
+    "choices": [
+      {
+        "id": "a",
+        "label": "Corporate taxes"
+      },
+      {
+        "id": "b",
+        "label": "Individual income taxes"
+      },
+      {
+        "id": "c",
+        "label": "Tariffs"
+      },
+      {
+        "id": "d",
+        "label": "Sales taxes"
+      }
+    ],
+    "answer": "b",
+    "rationale": "Individual income taxes account for about 50% of federal revenue, followed by payroll taxes for Social Security and Medicare."
+  },
+  {
+    "id": "q11",
+    "prompt": "Fiscal policy in the United States primarily refers to:",
+    "choices": [
+      { "id": "a", "label": "The Federal Reserve’s adjustment of interest rates." },
+      { "id": "b", "label": "Government decisions on spending and taxation to influence the economy." },
+      { "id": "c", "label": "Rules for regulating financial markets." },
+      { "id": "d", "label": "Policies to stabilize the value of the U.S. dollar." }
+    ],
+    "answer": "b",
+    "rationale": "Fiscal policy is the use of government spending and taxation to influence economic conditions."
+  },
+  {
+    "id": "q12",
+    "prompt": "Which institution has the constitutional authority to raise revenue and authorize federal spending?",
+    "choices": [
+      { "id": "a", "label": "The Federal Reserve" },
+      { "id": "b", "label": "The U.S. Congress" },
+      { "id": "c", "label": "The Supreme Court" },
+      { "id": "d", "label": "The Department of Commerce" }
+    ],
+    "answer": "b",
+    "rationale": "Congress holds the power of the purse and passes tax and spending laws."
+  },
+  {
+    "id": "q13",
+    "prompt": "Which of the following is an example of expansionary fiscal policy?",
+    "choices": [
+      { "id": "a", "label": "Raising the federal funds rate" },
+      { "id": "b", "label": "Cutting personal income tax rates" },
+      { "id": "c", "label": "Selling Treasury securities to banks" },
+      { "id": "d", "label": "Reducing unemployment insurance eligibility" }
+    ],
+    "answer": "b",
+    "rationale": "Tax cuts increase disposable income and support aggregate demand."
+  },
+  {
+    "id": "q14",
+    "prompt": "A contractionary fiscal policy designed to help cool inflation would most likely:",
+    "choices": [
+      { "id": "a", "label": "Increase infrastructure spending" },
+      { "id": "b", "label": "Reduce government spending or raise taxes" },
+      { "id": "c", "label": "Increase unemployment benefits" },
+      { "id": "d", "label": "Lower corporate tax rates" }
+    ],
+    "answer": "b",
+    "rationale": "Contractionary policy aims to reduce demand by cutting spending or increasing taxes."
+  },
+  {
+    "id": "q15",
+    "prompt": "A federal budget deficit occurs when:",
+    "choices": [
+      { "id": "a", "label": "Federal revenues exceed federal outlays." },
+      { "id": "b", "label": "Federal outlays exceed federal revenues." },
+      { "id": "c", "label": "Imports exceed exports." },
+      { "id": "d", "label": "State and local taxes are higher than federal taxes." }
+    ],
+    "answer": "b",
+    "rationale": "A deficit means the government spends more than it takes in during a fiscal year."
+  },
+  {
+    "id": "q16",
+    "prompt": "Which office provides Congress with nonpartisan projections about the federal budget and the economy?",
+    "choices": [
+      { "id": "a", "label": "Office of Management and Budget (OMB)" },
+      { "id": "b", "label": "Congressional Budget Office (CBO)" },
+      { "id": "c", "label": "Council of Economic Advisers (CEA)" },
+      { "id": "d", "label": "Government Accountability Office (GAO)" }
+    ],
+    "answer": "b",
+    "rationale": "The CBO is Congress’s nonpartisan budget analyst."
+  },
+  {
+    "id": "q17",
+    "prompt": "Automatic stabilizers in U.S. fiscal policy are best described as:",
+    "choices": [
+      { "id": "a", "label": "One-time emergency stimulus bills passed by Congress." },
+      { "id": "b", "label": "Budget mechanisms that automatically increase spending or lower taxes when the economy weakens." },
+      { "id": "c", "label": "Monetary tools used by the Federal Reserve." },
+      { "id": "d", "label": "Tariff schedules that change with trade flows." }
+    ],
+    "answer": "b",
+    "rationale": "Automatic stabilizers like unemployment insurance respond without new legislation."
+  },
+  {
+    "id": "q18",
+    "prompt": "Which of the following is a clear example of an automatic stabilizer?",
+    "choices": [
+      { "id": "a", "label": "The defense budget" },
+      { "id": "b", "label": "The Supplemental Nutrition Assistance Program (SNAP)" },
+      { "id": "c", "label": "A temporary tax holiday passed by Congress" },
+      { "id": "d", "label": "A corporate subsidy for exports" }
+    ],
+    "answer": "b",
+    "rationale": "SNAP spending rises automatically when more households qualify in downturns."
+  },
+  {
+    "id": "q19",
+    "prompt": "Discretionary federal spending is:",
+    "choices": [
+      { "id": "a", "label": "Spending that is determined each year through the congressional appropriations process." },
+      { "id": "b", "label": "Spending that is permanently authorized, such as Social Security." },
+      { "id": "c", "label": "Interest payments on the national debt." },
+      { "id": "d", "label": "State-level education spending." }
+    ],
+    "answer": "a",
+    "rationale": "Discretionary spending is set annually in appropriations bills."
+  },
+  {
+    "id": "q20",
+    "prompt": "The first formal step in the federal budget process each year is that:",
+    "choices": [
+      { "id": "a", "label": "The Supreme Court approves agency budgets." },
+      { "id": "b", "label": "The President submits a budget request to Congress." },
+      { "id": "c", "label": "The Federal Reserve publishes its monetary policy report." },
+      { "id": "d", "label": "The CBO issues a continuing resolution." }
+    ],
+    "answer": "b",
+    "rationale": "By law, the President sends Congress a budget proposal early in the year."
+  },
+  {
+    "id": "q21",
+    "prompt": "If unemployment rises sharply, which fiscal action would support aggregate demand the fastest?",
+    "choices": [
+      { "id": "a", "label": "Reducing eligibility for SNAP" },
+      { "id": "b", "label": "Increasing funding for unemployment insurance" },
+      { "id": "c", "label": "Raising payroll taxes" },
+      { "id": "d", "label": "Cutting federal hiring across agencies" }
+    ],
+    "answer": "b",
+    "rationale": "Boosting unemployment insurance quickly puts money in the hands of jobless workers."
+  },
+  {
+    "id": "q22",
+    "prompt": "Which statement correctly distinguishes fiscal policy from monetary policy?",
+    "choices": [
+      { "id": "a", "label": "Both are controlled entirely by the Federal Reserve." },
+      { "id": "b", "label": "Fiscal policy uses taxes and spending; monetary policy uses interest rates and the money supply." },
+      { "id": "c", "label": "Fiscal policy cannot address recessions." },
+      { "id": "d", "label": "Monetary policy is written by Congress in annual appropriations bills." }
+    ],
+    "answer": "b",
+    "rationale": "Fiscal policy is legislative/executive; monetary policy is central bank–driven."
+  },
+  {
+    "id": "q23",
+    "prompt": "Why do persistent large federal deficits create long-run policy concerns?",
+    "choices": [
+      { "id": "a", "label": "They automatically eliminate unemployment." },
+      { "id": "b", "label": "They can push federal debt higher, raising interest costs and reducing future fiscal flexibility." },
+      { "id": "c", "label": "They prevent the Federal Reserve from lowering rates." },
+      { "id": "d", "label": "They immediately stop all automatic stabilizers." }
+    ],
+    "answer": "b",
+    "rationale": "Higher debt means more resources go to interest, limiting room for future policy."
+  },
+  {
+    "id": "q24",
+    "prompt": "Large, one-time stimulus measures that Congress passes during recessions are examples of:",
+    "choices": [
+      { "id": "a", "label": "Automatic stabilizers" },
+      { "id": "b", "label": "Discretionary fiscal policy" },
+      { "id": "c", "label": "Monetary tightening" },
+      { "id": "d", "label": "Regulatory reform" }
+    ],
+    "answer": "b",
+    "rationale": "They require specific legislation and are not automatic."
+  },
+  {
+    "id": "q25",
+    "prompt": "To fund most federal agencies each year, Congress must pass:",
+    "choices": [
+      { "id": "a", "label": "Appropriations bills" },
+      { "id": "b", "label": "Constitutional amendments" },
+      { "id": "c", "label": "Supreme Court writs" },
+      { "id": "d", "label": "International treaties" }
+    ],
+    "answer": "a",
+    "rationale": "Annual appropriations provide budget authority for many programs."
+  },
+  {
+    "id": "q26",
+    "prompt": "In fiscal policy, transfer payments (like unemployment benefits) can be thought of as:",
+    "choices": [
+      { "id": "a", "label": "Negative taxes that increase households’ disposable income." },
+      { "id": "b", "label": "Tools used only by state governments." },
+      { "id": "c", "label": "Purely capital expenditures on infrastructure." },
+      { "id": "d", "label": "Monetary policy instruments." }
+    ],
+    "answer": "a",
+    "rationale": "Transfers raise spending power similarly to a tax cut."
+  },
+  {
+    "id": "q27",
+    "prompt": "Which combination below represents contractionary fiscal policy?",
+    "choices": [
+      { "id": "a", "label": "Lower taxes and higher spending" },
+      { "id": "b", "label": "Higher taxes and lower spending" },
+      { "id": "c", "label": "Higher taxes and higher spending" },
+      { "id": "d", "label": "Lower taxes and lower spending" }
+    ],
+    "answer": "b",
+    "rationale": "Higher taxes plus lower spending both reduce aggregate demand."
+  },
+  {
+    "id": "q28",
+    "prompt": "Which of the following best describes the President’s budget?",
+    "choices": [
+      { "id": "a", "label": "It is legally binding on Congress." },
+      { "id": "b", "label": "It is a policy proposal that signals priorities; Congress must enact actual tax and spending laws." },
+      { "id": "c", "label": "It is written by the Federal Reserve." },
+      { "id": "d", "label": "It cannot include tax changes." }
+    ],
+    "answer": "b",
+    "rationale": "Congressional action is required before spending/revenue changes take effect."
+  },
+  {
+    "id": "q29",
+    "prompt": "Automatic stabilizers help the economy during a downturn because they:",
+    "choices": [
+      { "id": "a", "label": "Require new legislation every time the economy slows." },
+      { "id": "b", "label": "Activate quickly as incomes fall, supporting household spending." },
+      { "id": "c", "label": "Always reduce the budget deficit." },
+      { "id": "d", "label": "Are funded only by state governments." }
+    ],
+    "answer": "b",
+    "rationale": "They are countercyclical by design and do not require congressional delay."
+  },
+  {
+    "id": "q30",
+    "prompt": "Which organization issues a regular “Monthly Budget Review” that tracks U.S. deficits?",
+    "choices": [
+      { "id": "a", "label": "Federal Reserve Board" },
+      { "id": "b", "label": "Congressional Budget Office (CBO)" },
+      { "id": "c", "label": "Department of Energy" },
+      { "id": "d", "label": "World Bank" }
+    ],
+    "answer": "b",
+    "rationale": "The CBO publishes the Monthly Budget Review that reports on the federal budget."
+  }
+]
