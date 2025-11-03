@@ -108,11 +108,11 @@ export function QuizEngine({ questions }: QuizEngineProps) {
               <ScoreBadge score={score} />
             </div>
             <div className="flex flex-col gap-2 sm:flex-row">
-              <Button onClick={handleRetake} variant="outline" className="flex-1 bg-transparent">
+              <Button onClick={handleRetake} variant="outline" className="w-full bg-transparent sm:flex-1">
                 <RotateCcw className="mr-2 h-4 w-4" />
                 Retake Quiz
               </Button>
-              <Button onClick={handleShare} className="flex-1">
+              <Button onClick={handleShare} className="w-full sm:flex-1">
                 <Share2 className="mr-2 h-4 w-4" />
                 Share Results
               </Button>
@@ -208,16 +208,16 @@ export function QuizEngine({ questions }: QuizEngineProps) {
         </CardContent>
       </Card>
 
-      <div className="flex gap-2">
+      <div className="flex flex-col gap-2 sm:flex-row">
         <Button
           onClick={handlePrevious}
           disabled={currentIndex === 0}
           variant="outline"
-          className="flex-1 bg-transparent"
+          className="w-full bg-transparent sm:flex-1"
         >
           Previous
         </Button>
-        <Button onClick={handleNext} disabled={!selectedAnswers[currentQuestion.id]} className="flex-1">
+        <Button onClick={handleNext} disabled={!selectedAnswers[currentQuestion.id]} className="w-full sm:flex-1">
           {currentIndex === questions.length - 1 ? "Finish" : "Next"}
         </Button>
       </div>

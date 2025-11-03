@@ -7,8 +7,8 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Script from "next/script"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" })
+const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
   title: "UpToUs Campus Fiscal Awareness",
@@ -33,9 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className={`${geistSans.className} ${geistMono.variable} flex min-h-screen flex-col bg-background text-foreground antialiased`}>
         <Header />
-        {children}
+        <div className="flex-1 min-w-0">{children}</div>
         <Footer />
         <Analytics />
         {/* Plausible Analytics - deferred load */}

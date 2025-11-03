@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main>
+    <main className="pb-16 md:pb-20">
       <Section className="pt-20 pb-12 md:pt-32">
         <div className="mx-auto max-w-4xl">
           <div className="text-center">
@@ -43,7 +43,7 @@ export default function AboutPage() {
               </CardContent>
             </Card>
 
-            <div className="grid gap-6 md:grid-cols-2">
+            <div className="grid gap-6 sm:grid-cols-2">
               <Card>
                 <CardHeader>
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">

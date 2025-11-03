@@ -69,7 +69,7 @@ export function DebtClockEmbed() {
   }
 
   return (
-    <div className="relative overflow-hidden rounded-xl border border-border bg-card">
+    <div className="relative min-h-[clamp(320px,50vw,720px)] overflow-hidden rounded-xl border border-border bg-card">
       {loading && (
         <div className="absolute inset-0 z-10 flex items-center justify-center bg-card">
           <div className="h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent" />
@@ -78,7 +78,7 @@ export function DebtClockEmbed() {
       <iframe
         title="U.S. Debt Clock"
         src="https://www.us-debt-clock.com/"
-        className="h-[480px] w-full md:h-[720px]"
+        className="h-[clamp(320px,50vw,720px)] w-full"
         onLoad={handleIframeLoad}
         onError={handleIframeError}
       />

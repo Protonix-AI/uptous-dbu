@@ -19,8 +19,8 @@ export function ScoreBadge({ score }: ScoreBadgeProps) {
 
   return (
     <div className="flex flex-col items-center gap-2">
-      <div className="flex h-32 w-32 items-center justify-center rounded-full border-8 border-primary/20 bg-card">
-        <span className={`text-4xl font-bold ${getScoreColor(score)}`}>{score}%</span>
+      <div className="flex h-[clamp(6rem,25vw,8rem)] w-[clamp(6rem,25vw,8rem)] items-center justify-center rounded-full border-8 border-primary/20 bg-card">
+        <span className={`text-[clamp(2rem,7vw,2.75rem)] font-bold ${getScoreColor(score)}`}>{score}%</span>
       </div>
       <p className="text-lg font-semibold text-card-foreground">{getScoreLabel(score)}</p>
     </div>

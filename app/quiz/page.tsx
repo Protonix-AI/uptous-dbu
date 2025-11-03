@@ -23,7 +23,7 @@ export default function QuizPage() {
   const randomTen = getRandomQuestions(quizData as QuizQuestion[], 10)
 
   return (
-    <main>
+    <main className="pb-16 md:pb-20">
       <Section className="pt-20 pb-12 md:pt-32">
         <div className="mx-auto max-w-3xl">
           <div className="mb-12 text-center">

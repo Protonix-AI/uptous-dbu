@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function PetitionPage() {
   return (
-    <main>
+    <main className="pb-16 md:pb-20">
       <Section className="pt-20 pb-12 md:pt-32">
         <div className="mx-auto max-w-3xl">
           <div className="text-center">
@@ -23,7 +23,7 @@ export default function PetitionPage() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Card>
               <CardContent className="pt-6 text-center">
                 <Users className="mx-auto h-8 w-8 text-primary" />

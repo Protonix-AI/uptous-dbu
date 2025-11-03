@@ -10,7 +10,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export default function HomePage() {
   return (
-    <main>
+    <main className="pb-24 md:pb-0">
       {/* Hero Section */}
       <Section className="pt-20 pb-12 md:pt-32 md:pb-20">
         <div className="mx-auto max-w-3xl text-center">
@@ -43,7 +43,7 @@ export default function HomePage() {
             Understanding fiscal policy is crucial for our generation's future. The decisions made today will impact our
             economic opportunities for decades to come.
           </p>
-          <div className="mt-12 grid gap-6 md:grid-cols-3">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <KPIStat label="National Debt" value="$36T+" description="And growing every second" />
             <KPIStat label="Interest Payments" value="$1T+" description="Annual cost of servicing debt" />
             <KPIStat label="Debt per Citizen" value="$100K+" description="Your share of the national debt" />
@@ -139,7 +139,7 @@ export default function HomePage() {
       </Section>
 
       {/* Sticky Mobile CTA */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-background/95 p-4 backdrop-blur supports-[backdrop-filter]:bg-background/60 md:hidden">
+      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-border bg-background/95 p-4 pb-[max(1rem,env(safe-area-inset-bottom))] backdrop-blur supports-[backdrop-filter]:bg-background/60 md:hidden">
         <Button asChild size="lg" className="w-full">
           <Link href="/petition">Sign the Petition</Link>
         </Button>
