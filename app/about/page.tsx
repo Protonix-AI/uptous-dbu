@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Image from "next/image"
 import { Section } from "@/components/section"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -15,6 +16,17 @@ export default function AboutPage() {
     <main className="pb-16 md:pb-20">
       <Section className="pt-20 pb-12 md:pt-32">
         <div className="mx-auto max-w-4xl">
+          <div className="flex justify-center">
+            <Image
+              src="/up-to-us-logo.jpg"
+              alt="Up to Us DBU logo"
+              width={320}
+              height={320}
+              className="h-32 w-auto rounded-full border border-border/40 bg-white object-contain p-4 shadow-sm sm:h-40"
+              priority
+            />
+          </div>
+
           <div className="text-center">
             <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl">About UpToUs DBU</h1>
             <p className="mt-6 text-pretty text-lg leading-relaxed text-foreground/80">
