@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -14,6 +15,17 @@ export default function HomePage() {
       {/* Hero Section */}
       <Section className="pt-20 pb-12 md:pt-32 md:pb-20">
         <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto mb-8 max-w-xl">
+            <Image
+              src="/up-to-us-logo.jpg"
+              alt="Up to Us DBU logo"
+              width={1024}
+              height={585}
+              priority
+              sizes="(max-width: 768px) 90vw, 480px"
+              className="h-auto w-full"
+            />
+          </div>
           <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
             It's Up To Us: Learn the Facts. Take Action.
           </h1>
